@@ -35,7 +35,7 @@ body {
   border-radius: 10px;
 }
 
-h2 {
+.sumuthra h2 {
   letter-spacing: 1px;
   margin-bottom: 20px;
 }
@@ -82,3 +82,22 @@ div.desc {
   text-align: center;
 }
 /* Vaishnavi Styles */
+
+
+/* Vijay Styles */
+
+.display-block {
+  display: inline-flex;
+}
+.block-elements {
+  background-color: white;
+  padding: 2% 2% 2% 2%;
+  
+  border-style: groove;
+  border-bottom-color: brown;
+  border-left-color: brown;
+  margin: 15px;
+  mask-border-slice: unset;
+}
+
+/* Vijay Styles */
