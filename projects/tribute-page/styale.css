@@ -1,0 +1,26 @@
+body{
+    background-color:white;
+}
+h2{
+    text-align: center;
+}
+img{
+width: 100px;
+height: 100px;
+border-radius: 50%;
+}
+.display-block{
+display:inline-flex;
+}
+.block-elements {
+background-color:white; 
+padding: 2% 2% 2% 2%;
+
+border-style:groove;
+border-bottom-color: brown;
+border-left-color:brown;
+margin:15px;
+mask-border-slice:unset
+
+
+}
