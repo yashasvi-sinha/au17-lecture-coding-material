@@ -1,3 +1,52 @@
+/* Sumuthra Sekar Styles */
+
+body {
+  color: navy;
+}
+
+#container {
+  margin: auto;
+  
+}
+
+#main {
+  max-width: 100%;
+  margin: auto;
+  /* height: 650px; */
+}
+
+.about {
+  max-width: 97%;
+  margin: auto;
+  /* height: 170px; */
+  border-radius: 10px;
+}
+
+h2 {
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+
+h3 {
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+.about p {
+  letter-spacing: 0.5px;
+  color: navy;
+}
+
+ul.a {
+  list-style-type: circle;
+  color: maroon;
+}
+
+ul.b {
+  list-style-type: square;
+  color: orangered;
+}
+/* Sumuthra Sekar Styles */
+
 /* Vaishnavi Styles */
 div.gallery {
   margin: 5px;
