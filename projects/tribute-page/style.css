@@ -13,7 +13,7 @@ body {
 /* Sumuthra Sekar Styles */
 
 body {
-  color: navy;
+    color: navy;
 }
 
 #container {
@@ -21,16 +21,16 @@ body {
 }
 
 #main {
-  max-width: 100%;
-  margin: auto;
-  /* height: 650px; */
+    max-width: 100%;
+    margin: auto;
+    /* height: 650px; */
 }
 
 .about {
-  max-width: 97%;
-  margin: auto;
-  /* height: 170px; */
-  border-radius: 10px;
+    max-width: 97%;
+    margin: auto;
+    /* height: 170px; */
+    border-radius: 10px;
 }
 
 .sumuthra h2 {
@@ -39,46 +39,53 @@ body {
 }
 
 h3 {
-  letter-spacing: 1px;
-  margin-bottom: 10px;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
 }
+
 .about p {
-  letter-spacing: 0.5px;
-  color: navy;
+    letter-spacing: 0.5px;
+    color: navy;
 }
 
 ul.a {
-  list-style-type: circle;
-  color: maroon;
+    list-style-type: circle;
+    color: maroon;
 }
 
 ul.b {
-  list-style-type: square;
-  color: orangered;
+    list-style-type: square;
+    color: orangered;
 }
+
+
 /* Sumuthra Sekar Styles */
 
+
 /* Vaishnavi Styles */
+
 div.gallery {
-  margin: 5px;
-  border: 1px solid #ccc;
-  float: left;
-  width: 180px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
 }
 
 div.gallery:hover {
-  border: 1px solid #777;
+    border: 1px solid #777;
 }
 
 div.gallery img {
-  width: 100%;
-  height: auto;
+    width: 100%;
+    height: auto;
 }
 
 div.desc {
-  padding: 15px;
-  text-align: center;
+    padding: 15px;
+    text-align: center;
 }
+
+
 /* Vaishnavi Styles */
 
 /* Vijay Styles */
