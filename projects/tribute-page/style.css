@@ -1,74 +1,66 @@
-/* Venkat Styles */
-
-body {
-    background-color: lightgrey;
-}
-
-.image {
-    border-style: solid;
-    border-color: rgb(105, 114, 114);
-    border-radius: 5px;
-}
-
-
-/* Venkat Styles */
-
-
-/* Sumuthra Sekar Styles */
-
-body {
-    color: navy;
-}
-
-#container {
-    margin: auto
-}
-
-#main {
-    max-width: 100%;
-    margin: auto;
-    /* height: 650px; */
-}
-
-.about {
-    max-width: 97%;
-    margin: auto;
-    /* height: 170px; */
-    border-radius: 10px;
-}
-
-.sumuthra h2 {
-    letter-spacing: 1px;
-    margin-bottom: 20px;
-}
-
-h3 {
-    letter-spacing: 1px;
-    margin-bottom: 10px;
-}
-
-.about p {
-    letter-spacing: 0.5px;
-    color: navy;
-}
-
-ul.a {
-    list-style-type: circle;
-    color: maroon;
-}
-
-ul.b {
-    list-style-type: square;
-    color: orangered;
-}
-
-
-/* Sumuthra Sekar Styles */
-
-
-/* Vaishnavi Styles */
-
-div.gallery {
+    /* Venkat Styles */
+    
+    body {
+        background-color: lightgrey;
+    }
+    
+    .image {
+        border-style: solid;
+        border-color: rgb(105, 114, 114);
+        border-radius: 5px;
+    }
+    /* Venkat Styles */
+    /* Sumuthra Sekar Styles */
+    
+    body {
+        color: navy;
+    }
+    
+    #container {
+        margin: auto;
+    }
+    
+    #main {
+        max-width: 100%;
+        margin: auto;
+        /* height: 650px; */
+    }
+    
+    .about {
+        max-width: 97%;
+        margin: auto;
+        /* height: 170px; */
+        border-radius: 10px;
+    }
+    
+    .sumuthra h2 {
+        letter-spacing: 1px;
+        margin-bottom: 20px;
+    }
+    
+    h3 {
+        letter-spacing: 1px;
+        margin-bottom: 10px;
+    }
+    
+    .about p {
+        letter-spacing: 0.5px;
+        color: navy;
+    }
+    
+    ul.a {
+        list-style-type: circle;
+        color: maroon;
+    }
+    
+    ul.b {
+        list-style-type: square;
+        color: orangered;
+    }
+    /* Sumuthra Sekar Styles */
+    /* Vaishnavi Styles */
+    /* div.gallery {
+>>>>>>> Stashed changes
     margin: 5px;
     border: 1px solid #ccc;
     float: left;
@@ -87,27 +79,47 @@ div.gallery img {
 div.desc {
     padding: 15px;
     text-align: center;
+<<<<<<< Updated upstream
 }
 
-
-/* Vaishnavi Styles */
-
-
-/* Vijay Styles */
-
-.display-block {
-    display: inline-flex;
-}
-
-.block-elements {
-    background-color: white;
-    padding: 2% 2% 2% 2%;
-    border-style: groove;
-    border-bottom-color: brown;
-    border-left-color: brown;
-    margin: 15px;
-    mask-border-slice: unset;
-}
-
-
-/* Vijay Styles */
+=======
+} */
+    
+    .gallery {
+        margin: 5px;
+        border: 1px;
+        float: left;
+        width: 180px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        transition: 0.3s;
+    }
+    
+    .gallery:hover {
+        box-shadow: 2px 8px 16px 2px rgba(0, 0, 0, 0.2);
+    }
+    
+    .gallery img {
+        width: 100%;
+        height: auto;
+    }
+    
+    .desc {
+        padding: 2px 16px;
+    }
+    /* Vaishnavi Styles */
+    /* Vijay Styles */
+    
+    .display-block {
+        display: inline-flex;
+    }
+    
+    .block-elements {
+        background-color: white;
+        padding: 2% 2% 2% 2%;
+        border-style: groove;
+        border-bottom-color: brown;
+        border-left-color: brown;
+        margin: 15px;
+        mask-border-slice: unset;
+    }
+    /* Vijay Styles */
