@@ -1,103 +1,113 @@
 /* Venkat Styles */
-body{
-  background-color: lightgrey;
+
+body {
+    background-color: lightgrey;
 }
 
-.image{
-  border-style: solid;
-  border-color: rgb(105, 114, 114);
-  border-radius: 5px;
+.image {
+    border-style: solid;
+    border-color: rgb(105, 114, 114);
+    border-radius: 5px;
 }
+
+
 /* Venkat Styles */
 
 
 /* Sumuthra Sekar Styles */
 
 body {
-  color: navy;
+    color: navy;
 }
 
 #container {
-  margin: auto;
-  
+    margin: auto
 }
 
 #main {
-  max-width: 100%;
-  margin: auto;
-  /* height: 650px; */
+    max-width: 100%;
+    margin: auto;
+    /* height: 650px; */
 }
 
 .about {
-  max-width: 97%;
-  margin: auto;
-  /* height: 170px; */
-  border-radius: 10px;
+    max-width: 97%;
+    margin: auto;
+    /* height: 170px; */
+    border-radius: 10px;
 }
 
 .sumuthra h2 {
-  letter-spacing: 1px;
-  margin-bottom: 20px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
 }
 
 h3 {
-  letter-spacing: 1px;
-  margin-bottom: 10px;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
 }
+
 .about p {
-  letter-spacing: 0.5px;
-  color: navy;
+    letter-spacing: 0.5px;
+    color: navy;
 }
 
 ul.a {
-  list-style-type: circle;
-  color: maroon;
+    list-style-type: circle;
+    color: maroon;
 }
 
 ul.b {
-  list-style-type: square;
-  color: orangered;
+    list-style-type: square;
+    color: orangered;
 }
+
+
 /* Sumuthra Sekar Styles */
 
+
 /* Vaishnavi Styles */
+
 div.gallery {
-  margin: 5px;
-  border: 1px solid #ccc;
-  float: left;
-  width: 180px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
 }
 
 div.gallery:hover {
-  border: 1px solid #777;
+    border: 1px solid #777;
 }
 
 div.gallery img {
-  width: 100%;
-  height: auto;
+    width: 100%;
+    height: auto;
 }
 
 div.desc {
-  padding: 15px;
-  text-align: center;
+    padding: 15px;
+    text-align: center;
 }
+
+
 /* Vaishnavi Styles */
 
 
 /* Vijay Styles */
 
 .display-block {
-  display: inline-flex;
+    display: inline-flex;
 }
+
 .block-elements {
-  background-color: white;
-  padding: 2% 2% 2% 2%;
-  
-  border-style: groove;
-  border-bottom-color: brown;
-  border-left-color: brown;
-  margin: 15px;
-  mask-border-slice: unset;
+    background-color: white;
+    padding: 2% 2% 2% 2%;
+    border-style: groove;
+    border-bottom-color: brown;
+    border-left-color: brown;
+    margin: 15px;
+    mask-border-slice: unset;
 }
+
 
 /* Vijay Styles */
