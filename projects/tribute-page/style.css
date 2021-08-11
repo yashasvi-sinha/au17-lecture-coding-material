@@ -1,3 +1,15 @@
+/* Venkat Styles */
+body {
+  background-color: lightgrey;
+}
+
+.image {
+  border-style: solid;
+  border-color: rgb(105, 114, 114);
+  border-radius: 5px;
+}
+/* Venkat Styles */
+
 /* Sumuthra Sekar Styles */
 
 body {
@@ -6,7 +18,6 @@ body {
 
 #container {
   margin: auto;
-  
 }
 
 #main {
@@ -22,7 +33,7 @@ body {
   border-radius: 10px;
 }
 
-h2 {
+.sumuthra h2 {
   letter-spacing: 1px;
   margin-bottom: 20px;
 }
@@ -69,3 +80,38 @@ div.desc {
   text-align: center;
 }
 /* Vaishnavi Styles */
+
+/* Vijay Styles */
+
+.display-block {
+  display: inline-flex;
+}
+.block-elements {
+  background-color: white;
+  padding: 2% 2% 2% 2%;
+
+  border-style: groove;
+  border-bottom-color: brown;
+  border-left-color: brown;
+  margin: 15px;
+  mask-border-slice: unset;
+}
+
+/* Vijay Styles */
+
+/* TODO: BY SHIVAM SINGH */
+
+#shivamCont {
+  font-family: Arial, Helvetica, sans-serif;
+  max-width: 80%;
+  text-align: center;
+  padding: 50px;
+  margin: auto;
+  clear: both;
+  background-color: antiquewhite;
+}
+
+#shivamCont p{
+  font-size: 20px;
+  letter-spacing: 1px
+}
