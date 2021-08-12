@@ -85,11 +85,12 @@ div.desc {
 =======
 } */
     
-    .gallery {
-        margin: 5px;
-        border: 1px;
+    .shubham .gallery {
+        margin: 12px;
+        border: 5px;
         float: left;
-        width: 180px;
+        width: 290px;
+        height: 299px;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
         transition: 0.3s;
     }
@@ -100,13 +101,13 @@ div.desc {
     
     .gallery img {
         width: 100%;
-        height: auto;
+        height: Auto;
+        vertical-align: middle;
     }
     
     .desc {
         padding: 2px 16px;
     }
-    /* Vaishnavi Styles */
     /* Vijay Styles */
     
     .display-block {
