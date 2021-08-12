@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <style>
+        :root{
+            --primary-color: green;
+            --full-height : 50vh;
+            --base-transition: all 2s ease-in-out;
+            --secondry: var(--primary-color);
+        }
+
+
+        .card:hover{
+            background-color: salmon;
+            box-shadow: -15px 64px 93px 0px rgba(0,0,0,0.75);
+            transform: rotate(45deg) skewX(50deg) scale(1.5) translateX(200px);
+        }
+        .card {
+
+            background: var(--primary-color);
+            padding: 10px;
+
+            height: 100px;
+            width: 100px;
+
+            /* box-shadow: 
+            5px 5px 5px rgba(0, 0, 0, 0.5), 
+            5px 5px 5px hsla(239, 84%, 46%, 0.502),
+            5px 10px 5px rgba(214, 19, 19, 0.5);
+            ; */
+
+
+            transition: var(--primary-color);
+            /* transition-property: all; */
+            /* transition-duration: 2s; */
+            /* transition-delay: 3s; */
+            /* transition-timing-function: cubic-bezier(0,1.6,0,1.47); */
+            
+        }
+
+
+        body{
+            background-image: linear-gradient( 180deg, #451465, rgb(44,65,100), blue);
+            /* background-size: cover; */
+            background-repeat: no-repeat;
+            height: var(--full-height);
+        
+        }
+
+        .card *{
+            color: white;
+        }
+        
+    </style>
+
+</head>
+<body>
+    
+
+    <div class="card">
+        <!-- <p>123</p> -->
+        
+        <h1>Test</h1>
+        <p>Some para</p>
+    </div>
+
+
+
+
+</body>
+</html>
