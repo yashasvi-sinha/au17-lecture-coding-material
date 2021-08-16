@@ -8,12 +8,11 @@ body {
   border-color: rgb(105, 114, 114);
   border-radius: 5px;
 }
-/* Venkat Styles */
 
 /* Sumuthra Sekar Styles */
 
 body {
-    color: navy;
+  color: navy;
 }
 
 #container {
@@ -21,16 +20,16 @@ body {
 }
 
 #main {
-    max-width: 100%;
-    margin: auto;
-    /* height: 650px; */
+  max-width: 100%;
+  margin: auto;
+  /* height: 650px; */
 }
 
 .about {
-    max-width: 97%;
-    margin: auto;
-    /* height: 170px; */
-    border-radius: 10px;
+  max-width: 97%;
+  margin: auto;
+  /* height: 170px; */
+  border-radius: 10px;
 }
 
 .sumuthra h2 {
@@ -39,59 +38,56 @@ body {
 }
 
 h3 {
-    letter-spacing: 1px;
-    margin-bottom: 10px;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
 }
 
 .about p {
-    letter-spacing: 0.5px;
-    color: navy;
+  letter-spacing: 0.5px;
+  color: navy;
 }
 
 ul.a {
-    list-style-type: circle;
-    color: maroon;
+  list-style-type: circle;
+  color: maroon;
 }
 
 ul.b {
-    list-style-type: square;
-    color: orangered;
+  list-style-type: square;
+  color: orangered;
 }
-
-
-/* Sumuthra Sekar Styles */
-
 
 /* Vaishnavi Styles */
 
 div.gallery {
-    margin: 5px;
-    border: 1px solid #ccc;
-    float: left;
-    width: 180px;
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
 }
 
 div.gallery:hover {
-    border: 1px solid #777;
+  border: 1px solid #777;
 }
 
 div.gallery img {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
 }
 
 div.desc {
-    padding: 15px;
-    text-align: center;
+  padding: 15px;
+  text-align: center;
 }
-
-
-/* Vaishnavi Styles */
 
 /* Vijay Styles */
 
-.display-block {
-  display: inline-flex;
+/* .display-block {
+  display: flex;
+}
+
+.display-block div {
+  width: 24%;
 }
 .block-elements {
   background-color: white;
@@ -102,23 +98,140 @@ div.desc {
   border-left-color: brown;
   margin: 15px;
   mask-border-slice: unset;
-}
-
-/* Vijay Styles */
+} */
 
 /* TODO: BY SHIVAM SINGH */
 
 #shivamCont {
-  font-family: Arial, Helvetica, sans-serif;
-  max-width: 80%;
-  text-align: center;
-  padding: 50px;
+  max-width: 85%;
+  text-align: justify;
+  padding: 30px;
   margin: auto;
   clear: both;
-  background-color: antiquewhite;
+  border: 1px solid black;
+  background-color: rgb(255, 255, 255);
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-#shivamCont p{
-  font-size: 20px;
-  letter-spacing: 1px
+#shivamCont p {
+  font-size: larger;
+}
+
+#shivamMain {
+  display: flex;
+  flex-direction: column;
+}
+
+#shivamMain div {
+  border-radius: 10px;
+  max-width: 100%;
+  margin: 10px;
+}
+
+#shivamMain img {
+  background-color: rgb(24, 0, 10);
+  border-radius: 10px;
+  padding: 3px;
+}
+
+.shivamMainBox01 h1 {
+  text-align: center;
+  transition: all 2s;
+}
+
+.shivamMainBox01 h1:hover {
+  transform: scale(1.2, 2);
+  cursor: pointer;
+}
+
+.shivamMainBox02 {
+  box-shadow: -2px 0px 10px 2px rgba(0, 0, 0, 0.68);
+  display: flex;
+  padding: 20px;
+}
+
+.shivamMainBox02 img:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.shivamMainBox02 p {
+  max-width: 60%;
+  margin: auto;
+  transition: all 2s;
+}
+
+.shivamMainBox02 img {
+  transition: all 2s;
+  height: 220px;
+}
+
+.shivamMainBox03 {
+  box-shadow: -2px 0px 10px 2px rgba(0, 0, 0, 0.68);
+  display: flex;
+}
+.shivamMainBox03 p {
+  transition: all 2s;
+}
+
+.shivamMainBox03 p:hover,
+.shivamMainBox02 p:hover {
+  transform: scale(1.1, 1.3);
+  cursor: pointer;
+}
+
+.shivamMainBox03 img {
+  transition: all 2s;
+}
+
+.shivamMainBox03 img:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.shivamMainBox03Box01 {
+  width: 45%;
+  padding: 20px;
+}
+
+.shivamMainBox03Box02Box {
+  display: flex;
+}
+
+.shivamMainBox03Box02Box p {
+  max-width: 50%;
+  font-size: large;
+}
+
+.shivamMainBox03Box01 img {
+  width: 100%;
+  height: 500px;
+}
+
+.shivamMainBox03Box01 p {
+  width: 80%;
+  margin: auto;
+  margin-top: 40px;
+}
+
+.shivamMainBox03Box02 {
+  display: flex;
+  padding: 10px 10px 0px 10px;
+  flex-direction: column;
+  width: 55%;
+}
+
+.shivamMainBox03Box02 div {
+  padding: 14px;
+  box-shadow: -2px 0px 10px 2px rgba(0, 0, 0, 0.68);
+}
+
+.shivamMainBox03Box02 img {
+  width: 32%;
+  /* height: 400px; */
+}
+
+.shivamMainBox03Box02 p {
+  width: 60%;
+  margin: auto;
 }
