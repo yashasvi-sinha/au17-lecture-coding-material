@@ -1,7 +1,7 @@
 /* Venkat Styles */
 
 body {
-  background-color: lightgrey;
+  
 }
 
 .image {
@@ -13,9 +13,6 @@ body {
 
 /* Sumuthra Sekar Styles */
 
-body {
-  color: navy;
-}
 
 #container {
   margin: auto;
@@ -46,27 +43,9 @@ h3 {
 
 .about p {
   letter-spacing: 0.5px;
-  color: navy;
 }
 
-ul.a {
-  list-style-type: circle;
-  color: maroon;
-}
-
-ul.b {
-  list-style-type: square;
-  color: orangered;
-}
-/* Sumuthra Sekar Styles */
-/* Vaishnavi Styles */
-/* div.gallery {
->>>>>>> Stashed changes
-=======
 /* Venkat Styles */
-body {
-  background-color: lightgrey;
-}
 
 .image {
   border-style: solid;
@@ -77,9 +56,6 @@ body {
 
 /* Sumuthra Sekar Styles */
 
-body {
-  color: navy;
-}
 
 #container {
   margin: auto;
@@ -110,7 +86,6 @@ h3 {
 
 .about p {
   letter-spacing: 0.5px;
-  color: navy;
 }
 
 ul.a {
