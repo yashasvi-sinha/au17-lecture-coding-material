@@ -1,114 +1,154 @@
-/* Venkat Styles */
-body {
-  background-color: lightgrey;
+* {
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.image {
-  border-style: solid;
-  border-color: rgb(105, 114, 114);
-  border-radius: 5px;
-}
-
-/* Sumuthra Sekar Styles */
-
-body {
-  color: navy;
-}
-
-#container {
+#mainContainer {
+  max-width: 85%;
   margin: auto;
+  margin-bottom: 50px;
 }
 
-#main {
-  max-width: 100%;
-  margin: auto;
-  /* height: 650px; */
+h1 {
+  color: rgb(0, 5, 78);
 }
 
-.about {
-  max-width: 97%;
-  margin: auto;
-  /* height: 170px; */
+.mainImg h1 {
+  letter-spacing: 3px;
+  margin: 25px 0px;
+  font-size: 80px;
+}
+
+.mainImg img:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.mainImg img {
+  transition: all 2s;
+  margin-top: 10px;
+  box-shadow: -2px 0px 10px 2px rgba(0, 0, 0, 0.68);
+  width: 70%;
+  padding: 6px;
+  background-image: linear-gradient(
+    to right,
+    rgb(255, 0, 98),
+    rgb(4, 216, 253),
+    rgb(15, 255, 7),
+    rgb(255, 230, 7)
+  );
   border-radius: 10px;
 }
 
-.sumuthra h2 {
-  letter-spacing: 1px;
-  margin-bottom: 20px;
+.sumuthra {
+  border-radius: 10px;
 }
 
-h3 {
+
+.about h1 {
+  margin-top: 60px;
+  padding-left: 20px;
+  font-size: 30px;
   letter-spacing: 1px;
-  margin-bottom: 10px;
 }
 
 .about p {
-  letter-spacing: 0.5px;
-  color: navy;
+  font-size: larger;
+  letter-spacing: 1px;
+  line-height: 25px;
 }
 
-ul.a {
-  list-style-type: circle;
-  color: maroon;
+.AboutBox {
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: -2px 0px 10px 2px rgba(0, 0, 0, 0.68);
+  margin-top: 40px;
 }
 
-ul.b {
-  list-style-type: square;
-  color: orangered;
+.AchievmentsBox,
+.booksBox {
+  font-size: larger;
+  letter-spacing: 1px;
+  line-height: 25px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: -2px 0px 10px 2px rgba(0, 0, 0, 0.68);
+  display: grid;
+  grid-template-columns: auto auto;
 }
 
-/* Vaishnavi Styles */
-
-div.gallery {
-  margin: 5px;
-  border: 1px solid #ccc;
-  float: left;
-  width: 180px;
-}
-
-div.gallery:hover {
-  border: 1px solid #777;
-}
-
-div.gallery img {
-  width: 100%;
-  height: auto;
-}
-
-div.desc {
-  padding: 15px;
+.AchievmentsBox div,
+.booksBox div {
+  transition: all 1s;
   text-align: center;
+  margin: 20px;
+  border-radius: 10px;
+  padding: 20px;
+  font-weight: 600;
+  box-shadow: -2px 0px 10px 2px rgba(0, 0, 0, 0.68);
 }
 
-/* Vijay Styles */
+.AchievmentsBox div:hover,
+.booksBox div:hover {
+  transform: scale(1.05);
+  background-color: antiquewhite;
+  cursor: pointer;
+}
 
-/* .display-block {
+.gallery {
+  border-radius: 10px;
+  padding: 40px;
+  box-shadow: -2px 0px 10px 2px rgba(0, 0, 0, 0.68);
   display: flex;
+  margin-bottom: 50px;
 }
 
-.display-block div {
-  width: 24%;
+.gallery > div:nth-child(1) {
+  width: 70%;
+  margin-right: 20px;
 }
-.block-elements {
-  background-color: white;
-  padding: 2% 2% 2% 2%;
 
-  border-style: groove;
-  border-bottom-color: brown;
-  border-left-color: brown;
-  margin: 15px;
-  mask-border-slice: unset;
-} */
+.gallery > div:nth-child(2) {
+  text-align: center;
+  width: 30%;
+  padding: 30px;
+  line-height: 30px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+}
 
-/* TODO: BY SHIVAM SINGH */
+.gallery > div:nth-child(1) img {
+  background-image: linear-gradient(
+    to right,
+    rgb(255, 0, 98),
+    rgb(4, 216, 253),
+    rgb(15, 255, 7),
+    rgb(255, 230, 7)
+  );
+  width: 100%;
+  height: 350px;
+  border-radius: 10px;
+  padding: 6px;
+  box-shadow: -2px 0px 10px 2px rgba(0, 0, 0, 0.68);
+}
+
+
+.footer {
+  height: 40px;
+  width: 99%;
+  color: rgb(99, 99, 99);
+  padding: 5px;
+  font-weight: 600;
+  text-align: center;
+  background-color: rgb(190, 190, 190);
+}
 
 #shivamCont {
-  max-width: 85%;
+  max-width: 100%;
   text-align: justify;
-  padding: 30px;
   margin: auto;
   clear: both;
-  border: 1px solid black;
   background-color: rgb(255, 255, 255);
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -228,7 +268,6 @@ div.desc {
 
 .shivamMainBox03Box02 img {
   width: 32%;
-  /* height: 400px; */
 }
 
 .shivamMainBox03Box02 p {
