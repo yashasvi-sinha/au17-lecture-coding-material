@@ -1,0 +1,71 @@
+.square{
+    width:30%;
+    float: left;
+    background: purple;
+    padding-bottom:30%;
+    margin:1.66%;
+    border-radius: 30%
+    }
+    body{
+      background-color: #232323;
+      margin: 0;
+    }
+    h1 {
+        margin: 0;
+        text-align: center;
+        color:white;
+        height: 114px;
+    }
+    .container{
+      max-width: 600px;
+      margin: 0  auto;
+    }
+    #message{
+      margin-left:50px;
+      color:black;
+    }
+    #strip {
+        background: white;
+        height: 30px;
+        text-align: center;
+        }
+    
+    #colorDisplay {
+        display: block;
+        font-size: 200%;
+    }
+
+    /* buttons */
+    button{
+        border: none;
+        outline: none;
+        background: none;
+        height: 100%;
+    }
+    .reset{   
+      }
+    .easy{
+        margin-left: 230px;       
+    }
+    .hard{    
+      }
+    /* in hovar need improovment */
+    .reset:hover{
+        cursor: pointer;
+        background-color: purple;
+    }   
+    .easy:hover{
+        cursor: pointer;
+        background-color: purple;
+    }
+    .hard:hover{
+        cursor: pointer;
+        background-color: purple;
+    }
+    /* this is after click effect */
+    .easy:focus{
+        background-color: purple;
+    }
+    .hard:focus{
+        background-color: purple;
+    }
