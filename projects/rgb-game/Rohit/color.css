@@ -4,7 +4,7 @@
     background: purple;
     padding-bottom:30%;
     margin:1.66%;
-    border-radius: 30%
+    border-radius:5%
     }
     body{
       background-color: #232323;
@@ -12,6 +12,8 @@
     }
     h1 {
         margin: 0;
+        padding-top: 20px;
+        padding-bottom: 30px;
         text-align: center;
         color:white;
         height: 114px;
@@ -28,6 +30,7 @@
         background: white;
         height: 30px;
         text-align: center;
+        margin-bottom: 20px;
         }
     
     #colorDisplay {
