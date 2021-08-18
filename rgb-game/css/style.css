@@ -44,9 +44,9 @@ button:hover{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-content: center;
+    align-items: center;
     width:100% ;
-    margin-left:350px;
+    
     
   
 }
@@ -59,4 +59,8 @@ button:hover{
     height:200px; 
     float:left;
     margin:10px 10px 10px 10px;
+}
+
+.box:hover{
+    transform: scale(1.1);
 }
