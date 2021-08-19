@@ -5,52 +5,47 @@
     <title>RGB Game</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/bootstrap.css">
+    
 </head>
 
-<body >
-    
+<body class="bg-dark">
+    <div class="container-fluid ">
         <div class="row">
             <div class="col text-white text-center" id="main-header">
                 <h1>The RGB Guessing Game</h1>
                 <h1>RGB(192, 252, 252)</h1>
-
-
             </div>
-            <div class="row">
-                <div class="col-sm p-4 text-center">
-                    <button class="btn btn-sm btn-light">Play Again</button>
-                    <button class="btn btn-sm btn-light">Easy</button>
-                    <button class="btn btn-sm btn-light">Hard</button>
-                    <span>Correct</span>
-                    <span>Score:0</span>
-                </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col bg-dark d-flex justify-content-center">
-                            <div class="box"></div>
-                            <div class="box"></div>
-                            <div class="box"></div>
-                        </div>
-                    
-                    </div>
-                    <div class="row">
-                        <div class="col bg-dark d-flex justify-content-center">
-                            <div class="box"></div>
-                            <div class="box"></div>
-                            <div class="box"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
         </div>
+        <div class="row bg-light ">
+            <div class="col-sm p-1 text-center">
+                <button class="btn btn-sm btn-outline-dark m-2">Play Again</button>
+                <button class="btn btn-sm btn-outline-dark m-2">Easy</button>
+                <button class="btn btn-sm btn-outline-dark m-2">Hard</button>
+                <span>Correct</span>
+                <span>Score:0</span>
+            </div>
+            
+        </div>
+        <div class="row d-flex">
+            <div class="col-sm d-flex p-3 justify-content-center">
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+            </div>
+        </div>
+        <div class="row d-flex" >
+            <div class="col-sm d-flex  justify-content-center">
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+            </div>   
+        </div>        
+            
+        
     </div>
-    
-
 </body>
 
 </html>
