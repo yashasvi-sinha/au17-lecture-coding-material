@@ -3,13 +3,15 @@ html,body{
     padding: 0%;
     background-color: black;
 }
+
 .sec1{
     display: flex;
     padding: 30px;
-    display: block;
+    justify-content: space-between;
     background-color: #4682b4;
 }
-.sec1 .t1{
+
+.sec1 .t1, .sub-section1 .t2,.sub-section1 .t1,.sub-section3 .t1,.sub-section3 .t2{
     font-family: Arial, Helvetica, sans-serif;
     display: block;
     color: white;
@@ -34,7 +36,6 @@ html,body{
     padding: 10px;
 }
 
-
 .sec2 .t1{
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
@@ -44,6 +45,7 @@ html,body{
     margin-right: 1px;
     transition:0.5s ease-in-out;
 }
+
 .sec2 .t1:hover{
     cursor: pointer;
     background-color: #4682b4;
@@ -58,6 +60,7 @@ html,body{
     padding: 5px 100px;
     transition:0.5s ease-in-out;
 }
+
 .sec2 .t2:hover{
     cursor: pointer;
     background-color: #4682b4;
@@ -73,6 +76,7 @@ html,body{
     margin:0px 1px 0px 100px;
     transition:0.5s ease-in-out;
 }
+
 .sec2 .t3:hover{
     cursor: pointer;
     background-color: #4682b4;
@@ -89,6 +93,7 @@ html,body{
     transition:0.5s ease-in-out;
 
 }
+
 .sec2 .t4:hover{
     cursor: pointer;
     background-color: #4682b4;
@@ -99,58 +104,91 @@ html,body{
     padding: 10px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
 }
-.sub-section {
+
+.sub-section2 {
     display: flex;
     flex-wrap: wrap;
     width: 610px;
     justify-content: space-around;
 }
-.sub-section .box1{
+
+.sub-section2 .box1{
     margin: 10px;
     background-color: blanchedalmond;
-    height: 200px;
+    height: 200px; 
     width: 200px;
     border-radius: 30px;
+    transition: 1s ease;
+}
+.sub-section2 .box1:hover{
+    height: 220px;
+    width: 220px;
 }
 
-.sub-section .box2{
+
+.sub-section2 .box2{
     margin: 10px;
     background-color: aqua;
     height: 200px;
     width: 200px;
     border-radius: 30px;
+    transition: 1s ease;
+}
+.sub-section2 .box2:hover{
+    height: 220px;
+    width: 220px;
 }
 
-.sub-section .box3{
+.sub-section2 .box3{
     margin: 10px;
     background-color: blue;
     height: 200px;
     width: 200px;
     border-radius: 30px;
+    transition: 1s ease;
+}
+.sub-section2 .box3:hover{
+    height: 220px;
+    width: 220px;
 }
 
-.sub-section .box4{
+.sub-section2 .box4{
     margin: 10px;
     background-color: coral;
     height: 200px;
     width: 200px;
     border-radius: 30px;
+    transition: 1s ease;
+}
+.sub-section2 .box4:hover{
+    height: 220px;
+    width: 220px;
 }
 
-.sub-section .box5{
+.sub-section2 .box5{
     margin: 10px;
     background-color: darkgray;
     height: 200px;
     width: 200px;
     border-radius: 30px;
+    transition: 1s ease;
+}
+.sub-section2 .box5:hover{
+    height: 220px;
+    width: 220px;
 }
 
-.sub-section .box6{
+.sub-section2 .box6{
     margin: 10px;
     background-color: firebrick;
     height: 200px;
     width: 200px;
     border-radius: 30px;
+    transition: 1s ease;
+}
+.sub-section2 .box6:hover{
+    height: 220px;
+    width: 220px;
 }
