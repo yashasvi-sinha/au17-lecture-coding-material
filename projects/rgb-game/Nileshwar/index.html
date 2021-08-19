@@ -1,39 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
+
+<head>
     <title>RGB Game</title>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+</head>
 
-    </head>
-    <body>
-        <div class="main-header">
-            <h1>The RGB Guessing Game</h1> 
-            <h1>RGB(192, 252, 252)</h1> 
+<body >
     
+        <div class="row">
+            <div class="col text-white text-center" id="main-header">
+                <h1>The RGB Guessing Game</h1>
+                <h1>RGB(192, 252, 252)</h1>
+
+
+            </div>
+            <div class="row">
+                <div class="col-sm p-4 text-center">
+                    <button class="btn btn-sm btn-light">Play Again</button>
+                    <button class="btn btn-sm btn-light">Easy</button>
+                    <button class="btn btn-sm btn-light">Hard</button>
+                    <span>Correct</span>
+                    <span>Score:0</span>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col bg-dark d-flex justify-content-center">
+                            <div class="box"></div>
+                            <div class="box"></div>
+                            <div class="box"></div>
+                        </div>
+                    
+                    </div>
+                    <div class="row">
+                        <div class="col bg-dark d-flex justify-content-center">
+                            <div class="box"></div>
+                            <div class="box"></div>
+                            <div class="box"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </div>
-        <div class="strip">
-            <button type="button" class="play-again" >Play Again</button>
-            <span>Correct!</span>
-            <button type="button" class="easy">Easy</button>
-            <button type="button" class="hard">Hard</button>
-            <span>Score:000</span>
-         </div>
-         <div class="container">
-            <div>
-            <div class="box"></div>
-            <div class="box"></div>
-            <div class="box"></div>
-            </div>
-            <div>
-            <div class="box"></div>
-            <div class="box"></div>
-            <div class="box"></div>
-            
-            </div>
-            
-         </div>
-        
-    </body>
+    </div>
+    
+
+</body>
+
 </html>
