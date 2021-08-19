@@ -1,14 +1,19 @@
 <!DOCTYPE html>
 <html>
   <head>
-        <title>colorGame</title>
-        <link rel="stylesheet" type="text/css" href="color.css">
-        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>colorGame</title>
+    <link rel="stylesheet" type="text/css" href="color.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link href='https://fonts.googleapis.com/css?family=Raleway:300' rel='stylesheet' type='text/css'>	
   </head>
   <body>
-    <h1 style="background: steelblue;">The RGB Guessing Game
-    <span id="colorDisplay">RGB(128, 0 , 128)</span>
+    <h1 style="background: steelblue;">THE RGB GUESSING GAME
+    <span id="colorDisplay">RGB(97,214,21)</span>
     </h1>
+
     <div id="strip">
         <button type="button" class="reset" name="button">NEW COLORS!</button>
         <span id="message">Try Again!</span>
@@ -16,15 +21,22 @@
         <button type="button" class="hard" name="button">HARD</button>
     </div>
 
-    <div class="container">
-      <div class="square "></div>
-      <div class="square"></div>
-      <div class="square"></div>
-      <div class="square"></div>
-      <div class="square"></div>
-      <div class="square"></div>
-    </div>
-    </div>
-
+    <section class="game">
+      <section class="wrong">
+          <span class="t2">WRONG CHOICE</span>
+          <span class="t1">00</span>
+      </section>
+      <section class="container">
+          <div class="square"></div>
+          <div class="square"></div>
+          <div class="square"></div>
+          <div class="square"></div>
+          <div class="square"></div>
+          <div class="square"></div>
+      </section>
+      <section class="right">
+          <span class="t2">CORRECT CHOICE</span>
+          <span class="t1">00</span>
+      </section>
+  </section>
   </body>
-</html>

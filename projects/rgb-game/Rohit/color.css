@@ -1,30 +1,23 @@
-.square{
-    width:30%;
-    float: left;
-    background: purple;
-    padding-bottom:30%;
-    margin:1.66%;
-    border-radius:5%
-    }
     body{
       background-color: #232323;
       margin: 0;
-    }
+      font-family: "Raleway", Sans-serif;}
+
     h1 {
         margin: 0;
-        padding-top: 20px;
-        padding-bottom: 30px;
+        padding-top: 30px;
+        padding-bottom: 22px;
         text-align: center;
         color:white;
-        height: 114px;
-    }
-    .container{
-      max-width: 600px;
-      margin: 0  auto;
-    }
+        font-weight: normal;
+        }
+    
+        /* try again or correct massage */
+
     #message{
-      margin-left:50px;
       color:black;
+      display: inline-block;
+      width: 18%;
     }
     #strip {
         background: white;
@@ -44,31 +37,68 @@
         outline: none;
         background: none;
         height: 100%;
+        font-weight: 700;
+        letter-spacing: 1px;
+        color: purple;
+        font-size: medium;
     }
-    .reset{   
-      }
-    .easy{
-        margin-left: 230px;       
-    }
-    .hard{    
-      }
+
     /* in hovar need improovment */
     .reset:hover{
         cursor: pointer;
         background-color: purple;
+        color:white;
     }   
     .easy:hover{
         cursor: pointer;
         background-color: purple;
+        color:white;
+
     }
     .hard:hover{
         cursor: pointer;
         background-color: purple;
+        color:white;
+
     }
+
     /* this is after click effect */
     .easy:focus{
         background-color: purple;
+        color: white;
     }
     .hard:focus{
         background-color: purple;
+        color: white;
     }
+            /* game score  */
+
+    .wrong .t2,.wrong .t1,.right .t1,.right .t2{
+        font-family: Arial, Helvetica, sans-serif;
+        display: block;
+        color: white;
+        text-align: center;
+        font-size: 30px;
+        padding-bottom: 10px;
+    }
+    .game{
+        padding: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        width: 600px;
+        justify-content: space-around;
+    }
+    .square{
+        width:30%;
+        float: left;
+        background: purple;
+        padding-bottom:30%;
+        margin:1.66%;
+        border-radius:5%
+        }
