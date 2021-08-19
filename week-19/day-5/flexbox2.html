@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        .flex-container{
+            background-color: teal;
+            padding: 20px 10px;
+
+            height: 500px;
+
+            display: flex; /* Very very very important*/
+            flex-direction: column;
+            flex-wrap: wrap;
+            /* align-items: flex-end; */
+            /* justify-content: center; */
+
+        }
+
+
+        .tomato-box{
+            height: 100px;
+            width: 100px;
+            margin: 10px 5px;
+            background-color: tomato;
+            
+            /* flex-grow: 1;
+            flex-shrink: 1; */
+        }
+
+        .box-3{
+            /* ;
+
+            flex-shrink: 8; */
+            /* flex-shrink: 8; */
+
+            /* flex-grow: 4;
+            flex-basis: 200px; */
+
+            /* flex: 1 2 300px; */
+            /* align-self: flex-start; */
+
+            order: 4; /*0*/
+        }
+
+        .box-2{
+            order: -6;
+        }
+
+        
+    </style>
+</head>
+<body>
+
+    <div class="flex-container">
+        <div class="tomato-box">1</div>
+        <div class="tomato-box box-2">2</div>
+        <div class="tomato-box box-3">3</div>
+        <div class="tomato-box">4</div>
+        <!-- <div class="tomato-box">4</div>
+        <div class="tomato-box">4</div>
+        <div class="tomato-box">4</div>
+        <div class="tomato-box">4</div>
+        <div class="tomato-box">4</div>
+        <div class="tomato-box">4</div>
+        <div class="tomato-box">4</div>
+        <div class="tomato-box">4</div>
+        <div class="tomato-box">4</div>
+        <div class="tomato-box">4</div>
+        <div class="tomato-box">4</div>
+        <div class="tomato-box">4</div>
+        <div class="tomato-box">4</div> -->
+    </div>
+
+    
+</body>
+</html>

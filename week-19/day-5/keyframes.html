@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .box{
+            height: 100px;
+            width: 100px;
+            background-color: yellow;
+
+            
+        }
+
+        .move{
+            animation:  move-lateral 5s ease-in-out 0s infinite normal;
+        }
+
+        @keyframes move-lateral {
+
+            
+            /* from:{
+                transform: translateX(0px);
+            }
+            
+            to:{
+                transform: translateX(0px);
+            } */
+            
+            /* 0%,100% {
+                transform: translateX(0px);
+                background-color: red;
+            }
+
+
+            33%{
+                transform: translateY(200px);
+                background-color: green;
+            }
+
+
+            50%{
+                transform: translateX(200px);
+                
+            }
+
+            75%{
+                background-color: chartreuse;
+            }
+
+            100%{
+                transform: translateX(0px);
+                background-color: blue;
+            } */
+
+            0%{
+                transform: translate(250px, 0px);
+            }
+
+
+
+            25%{
+                transform: translate(500px, 250px);
+            }
+
+            50%{
+                transform: translate(250px, 500px);
+            }
+
+            75%{
+                transform: translate(0px, 250px);
+            }
+
+            100%{
+                transform: translate(250px, 0px);
+            }
+
+        }
+
+
+    </style>
+
+</head>
+<body>
+    
+    <div class="box move"></div>
+</body>
+</html>
