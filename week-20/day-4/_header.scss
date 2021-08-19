@@ -1,0 +1,8 @@
+@use 'colors';
+
+$primaryColor: green;
+
+
+header {
+    background-color: colors.$primaryColor;
+}

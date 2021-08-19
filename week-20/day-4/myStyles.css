@@ -1,0 +1,51 @@
+header {
+  background-color: #ac3233;
+}
+
+.image-section, .random-section {
+  border: 10px solid green;
+  background-color: red;
+}
+
+.image-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.random-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
+}
+
+.text-warning {
+  color: yellow;
+}
+
+.btn-warning {
+  background-color: yellow;
+}
+
+.bg-primary {
+  background-color: #ac3233;
+}
+
+.btn-primary {
+  background-color: #ac3233;
+}
+.btn-primary::after {
+  content: "<>";
+}
+.btn-primary::before {
+  content: "*";
+}
+
+.image {
+  height: 40%;
+  width: 33.3333333333%;
+}
