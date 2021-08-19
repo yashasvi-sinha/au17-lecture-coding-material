@@ -111,85 +111,87 @@ html,body{
 .sub-section2 {
     display: flex;
     flex-wrap: wrap;
-    width: 610px;
-    justify-content: space-around;
+    max-height: 440px;
+    max-width: 610px;
+    padding: 10px;
+    justify-content: space-between;
 }
 
 .sub-section2 .box1{
     margin: 10px;
     background-color: blanchedalmond;
-    height: 200px; 
-    width: 200px;
+    height: 150px; 
+    width: 150px;
     border-radius: 30px;
     transition: 1s ease;
 }
 .sub-section2 .box1:hover{
-    height: 220px;
-    width: 220px;
+    height: 170px;
+    width: 170px;
 }
 
 
 .sub-section2 .box2{
     margin: 10px;
     background-color: aqua;
-    height: 200px;
-    width: 200px;
+    height: 150px;
+    width: 150px;
     border-radius: 30px;
     transition: 1s ease;
 }
 .sub-section2 .box2:hover{
-    height: 220px;
-    width: 220px;
+    height: 170px;
+    width: 170px;
 }
 
 .sub-section2 .box3{
     margin: 10px;
     background-color: blue;
-    height: 200px;
-    width: 200px;
+    height: 150px;
+    width: 150px;
     border-radius: 30px;
     transition: 1s ease;
 }
 .sub-section2 .box3:hover{
-    height: 220px;
-    width: 220px;
+    height: 170px;
+    width: 170px;
 }
 
 .sub-section2 .box4{
     margin: 10px;
     background-color: coral;
-    height: 200px;
-    width: 200px;
+    height: 150px;
+    width: 150px;
     border-radius: 30px;
     transition: 1s ease;
 }
 .sub-section2 .box4:hover{
-    height: 220px;
-    width: 220px;
+    height: 170px;
+    width: 170px;
 }
 
 .sub-section2 .box5{
     margin: 10px;
     background-color: darkgray;
-    height: 200px;
-    width: 200px;
+    height: 150px;
+    width: 150px;
     border-radius: 30px;
     transition: 1s ease;
 }
 .sub-section2 .box5:hover{
-    height: 220px;
-    width: 220px;
+    height: 170px;
+    width: 170px;
 }
 
 .sub-section2 .box6{
     margin: 10px;
     background-color: firebrick;
-    height: 200px;
-    width: 200px;
+    height: 150px;
+    width: 150px;
     border-radius: 30px;
     transition: 1s ease;
 }
 .sub-section2 .box6:hover{
-    height: 220px;
-    width: 220px;
+    height: 170px;
+    width: 170px;
 }
