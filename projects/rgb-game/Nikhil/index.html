@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nikhil</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+  </head>
+  <body>
+    <h1 style="background: rgb(182, 131, 21);"> RGB Guessing Game
+    <span id="colorDisplay">RGB(140, 115, 115)</span>
+    </h1>
+
+    <div id="strip">
+        <button type="button" class="reset" name="button">New Colors</button>
+        <span id="message">Retry</span>
+        <button type="button" class="easy" name="button">Easy</button>
+        <button type="button" class="hard" name="button">Hard</button>
+    </div>
+
+    <section class="game">
+      <section class="wrong">
+          <span class="t2">Wrong Answer</span>
+          <span class="t1">0</span>
+      </section>
+      <section class="container">
+          <div class="square"></div>
+          <div class="square"></div>
+          <div class="square"></div>
+          <div class="square"></div>
+          <div class="square"></div>
+          <div class="square"></div>
+      </section>
+      <section class="right">
+          <span class="t2">Right Answer</span>
+          <span class="t1">0</span>
+      </section>
+  </section>
+  </body>

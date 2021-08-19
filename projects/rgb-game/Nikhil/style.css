@@ -1,0 +1,98 @@
+body {
+  background-color: #15d445;
+  margin: 0;
+}
+
+h1 {
+  margin: 0;
+  padding-top: 25px;
+  padding-bottom: 21px;
+  text-align: center;
+  color: rgb(179, 34, 34);
+  font-weight: 200;
+}
+
+#message {
+  color: rgb(228, 224, 224);
+  display: inline-table;
+  width: 28%;
+}
+#strip {
+  background: rgb(10, 8, 9);
+  height: 30px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#colorDisplay {
+  display: block;
+  font-size: 200%;
+}
+
+button {
+  border: none;
+  outline: none;
+  background: none;
+  height: 100%;
+  font-weight: 200;
+  letter-spacing: 1px;
+  color: rgb(156, 201, 35);
+  font-size: medium;
+}
+
+.reset:hover {
+  cursor: unset;
+  background-color: rgb(43, 165, 90);
+  color: rgb(12, 10, 10);
+}
+.easy:hover {
+  cursor: unset;
+  background-color: rgb(43, 165, 90);
+  color: rgb(12, 10, 10);
+}
+.hard:hover {
+  cursor: unset;
+  background-color: rgb(43, 165, 90);
+  color: rgb(12, 10, 10);
+}
+
+.easy:focus {
+  background-color: rgb(43, 165, 90);
+  color: rgb(12, 10, 10);
+}
+.hard:focus {
+  background-color: purple;
+  color: white;
+}
+
+.wrong .t2,
+.wrong .t1,
+.right .t1,
+.right .t2 {
+  display: block;
+  color: rgb(159, 40, 214);
+  text-align: center;
+  font-size: 30px;
+  padding-bottom: 10px;
+}
+.game {
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 400px;
+  justify-content: space-around;
+}
+.square {
+  width: 40%;
+  float: left;
+  background: rgb(224, 221, 224);
+  padding-bottom: 30%;
+  margin: 1.6%;
+  border-radius: 10%;
+}
