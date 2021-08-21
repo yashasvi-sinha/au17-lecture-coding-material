@@ -1,0 +1,1 @@
+# This was a project session. Look into projects/portfolio

@@ -1,0 +1,57 @@
+@use "colors";
+@use 'header';
+@use 'mixins';
+
+
+
+
+
+
+.image-section{
+    @include mixins.makeThingsCenter(wrap, column);
+
+    // flex-direction: row;
+
+    // @extend %basicBorder;
+}
+
+.random-section{
+    @include mixins.makeThingsCenter(nowrap);
+}
+
+.text-warning{
+    color: colors.$warningColor;
+    
+}
+
+
+.btn-warning{
+    // @extend asdasd%basicBorder;
+
+    background-color: colors.$warningColor;
+}
+
+
+.bg-primary{
+    background-color: colors.$primaryColor;
+}
+
+.btn-primary{
+    background-color: colors.$primaryColor;
+
+    &::after{
+        content: "<>";
+    }  
+    
+    &::before{
+        content: "*";
+    }
+}
+
+.image{
+    height: 4% * 10;
+    width: 300px / 900px  * 100%; //+ - * / % // calc(500px - 20vh)
+    // @extend %basicBorder;
+
+
+}

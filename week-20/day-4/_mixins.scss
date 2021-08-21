@@ -1,0 +1,26 @@
+// def asd(dasd, asdasd)
+%basicBorder {
+    border: 10px solid green;
+    background-color: red;
+
+}
+
+@mixin makeThingsCenter($wrap, $direction: row) {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: $wrap;
+    flex-direction: $direction;
+
+    @extend %basicBorder;
+
+}
+
+
+
+// def sum(a, b = 0):
+//     return a + b;
+
+
+// sum(20)
