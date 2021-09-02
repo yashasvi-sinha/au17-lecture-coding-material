@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>Your Position is <span id="displayLocation"></span></h1>
+    
+    <button id="getLocation">Get Location</button>
+
+    <script>
+
+        var getLocationBtn = document.getElementById('getLocation')
+        var display = document.getElementById('displayLocation')
+
+
+        function masti(positionObj){
+            console.log("Success")
+            
+            var location = positionObj.coords.latitude + ", " + positionObj.coords.longitude
+            console.log(location)
+
+            display.innerText = location
+
+        }
+
+        function error(){
+            console.log('Error')
+        }
+
+        getLocationBtn.addEventListener('click', function(e){
+
+            navigator.geolocation.getCurrentPosition(masti, error, { })
+
+            // navigator.geolocation.watchPosition()
+
+        })
+
+
+
+
+        var arr = [55, 44, 11, 33, 22 ,44, 55,21]
+
+
+        function getCurrentPosition(s,f){
+
+
+            var permissionGiven = true // false
+
+            if (permissionGiven === true) {
+                s(asdasd)
+            }else{
+                f(err)
+            }
+
+
+            // s(element, index)
+            // for (let index = 0; index < arr.length; index++) {
+            //     const element = arr[index];
+
+                
+            // }
+        }
+
+
+        getCurrentPosition(function(){console.log("succ")} , function(){console.log("err")})
+
+
+        // arr.map(func)
+
+
+    </script>
+
+</body>
+</html>
