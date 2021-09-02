@@ -7,21 +7,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" type="image/png" href="https://cdn.pixabay.com/photo/2013/07/13/13/14/swirl-160625_640.png">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <script defer src="script.js"></script>
 </head>
 
 <body>
-    <h1>The RGB Guessing Game
+    <h1 id="heading">The RGB Guessing Game
     <span id="colorDisplay"></span>
     </h1>
-    
-
-
+     
     <div id="strip">
         <button type="button" id="reset">New Colors!</button>
         <span id="message"></span>
-        <button type="button" class="mode">Easy</button>
-        <button type="button" class="mode selected">Hard</button>
+        <button id="easy" type="button" class="mode">Easy</button>
+        <button id="hard" type="button" class="mode selected">Hard</button>
     </div>
     <div id="container">
         <div class="square"></div>
@@ -31,9 +30,6 @@
         <div class="square"></div>
         <div class="square"></div>
     </div>
-
-
-    <script type="text/javascript" src="script/script.js"></script>
 </body>
 
 </html>
