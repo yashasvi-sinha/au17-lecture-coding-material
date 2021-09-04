@@ -1,39 +1,55 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <title>Colored</title>
-    <meta charset="UTF-8">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Color Guessing Game</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" type="image/png" href="https://cdn.pixabay.com/photo/2013/07/13/13/14/swirl-160625_640.png">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+
 </head>
 
 <body>
-    <h1>The RGB Guessing Game
-    <span id="colorDisplay"></span>
+    <h1>Red Green Blue
+        <br>
+        <span id="colorDisplay">RGB</span>
+        <br> Color Guessing Game
     </h1>
-    
 
-
-    <div id="strip">
-        <button type="button" id="reset">New Colors!</button>
+    <div id="stripe">
+        <button id="reset">New Colors</button>
         <span id="message"></span>
-        <button type="button" class="mode">Easy</button>
-        <button type="button" class="mode selected">Hard</button>
+        <button class="mode">Easy</button>
+        <button class="mode selected">Hard</button>
     </div>
+
     <div id="container">
-        <div class="square"></div>
-        <div class="square"></div>
-        <div class="square"></div>
-        <div class="square"></div>
-        <div class="square"></div>
-        <div class="square"></div>
+        <div class="cont">
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+        </div>
+        <div class="cont">
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+        </div>
+
     </div>
 
 
-    <script type="text/javascript" src="script/script.js"></script>
+    <div class="hint">
+        <h2>Hint:</h2>
+        <p>Guess the RGB color at the TOP</p>
+        <p>First number(s) for <span class="red">RED</span></p>
+        <p>Second number(s) for <span class="green">GREEN</span></p>
+        <p>Third number(s) for <span class="blue">BLUE</span> </p>
+        <p>Note: You would have to note how much <span class="red">RED</span>, <span class="green">GREEN</span> or <span class="blue">BLUE</span> in it to know the right color </p>
+        <p>Click on the "NEW COLORS" to generate new  or "PLAY AGAIN" to restart. </p>
+    </div>
+    <script src="Script/script.js"></script>
+    <script src="Confetti/confetti.js"></script> 
 </body>
 
 </html>
