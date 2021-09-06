@@ -19,16 +19,18 @@
 
         <div class="input-button-box mb-3">
             <div >
-                <label for="">Enter your task</label>
-                <input id="inputBox" type="text" class="form-control" >
+                <form action="#" id="taskForm">
+                    <label for="">Enter your task</label>
+                    <input  type="text" name="task" class="form-control" autofocus />
+                    <button id="addBtn" type="submit" class="mt-3 btn btn-primary">Add Task To the List</button>
+                    <button id="deleteBtn" type="reset" class="mt-3 btn btn-danger">Delete All</button>
+                </form>
             </div>
-            <button id="addBtn" class="mt-3 btn btn-primary">Add Task To the List</button>
-            <button id="deleteBtn" class="mt-3 btn btn-danger">Delete All</button>
         </div>
 
-        <div class="todo-container mb-3 w-50">
+        <div class="todo-container d-flex justify-content-center mb-3">
 
-            <ul class="todo-list list-group">
+            <ul class="todo-list list-group w-50">
                
             </ul>
 
@@ -45,14 +47,25 @@
         var deleteButton = document.getElementById('deleteBtn')
         var todoList = document.getElementsByClassName('todo-list')[0]
         //get the input text
-        var inputField = document.getElementById('inputBox')
-        
+        var formElem = document.getElementById('taskForm')
 
-        addButton.addEventListener('click', function() {
+
+        formElem.addEventListener('submit', function(e){
+            e.preventDefault()
+            console.log("Submitted")       
             
-            var task = inputField.value
-            addTask(task)
+            var myData = {}
+
+            var data = new FormData(formElem)
+
+            for (var abc of data) {
+                
+                console.log(abc)
+                var key = abc[0]
+                myData[key] = abc[1]
+            }
             
+            addTask(myData.task)
         })
 
 
@@ -74,8 +87,6 @@
 
             todoList.append(listItem)
             
-            inputField.value = ""
-            inputField.focus()
         }
 
 
