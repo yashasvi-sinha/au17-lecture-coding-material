@@ -1,0 +1,31 @@
+.height{
+    height: 100vh;
+}
+
+.bg-img{
+    background-image: url('../images/rain.jpg');
+    background-size: cover;
+    background-position: center top;
+}
+
+.app-widget{
+    backdrop-filter: blur(100px);
+}
+
+.left-temp i,
+span{
+    font-size: 80px;
+}
+
+.right-text i{
+    font-size: 40px;
+}
+
+.right-text h3{
+    font-size: 45px;
+    font-weight: normal;
+}
+
+.card-footer h2{
+    font-weight: normal;
+}
