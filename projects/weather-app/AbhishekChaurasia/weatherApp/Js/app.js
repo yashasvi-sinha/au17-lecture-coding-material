@@ -24,15 +24,10 @@ async function onGeolocateSuccess(coordinates) {
 
   temperature.innerText = `${obj.current.temp_c} °C`;
   loc.innerText = `${obj.location.name}`;
-  // icons.innerText = `${obj.current.condition.text};
   humidity.textContent = `${obj.current.humidity} %`;
-  wind.textContent = `${obj.current.wind_kph} KM`;
+  wind.textContent = `${obj.current.wind_kph} Km`;
   uv.textContent = `${obj.current.uv} UV`;
-
-  fahar.addEventListener('click', function(){
-    temperaturef.innerHTML = `${obj.current.temp_f} °F`;
-  } ) 
-
+  // icons.innerText = `${obj.current.cdn.weatherapi.com/weather/64x64/night/389.png};
 }
 
 function onGeolocateError(error) {
