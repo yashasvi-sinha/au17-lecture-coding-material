@@ -1,14 +1,16 @@
 
 
 const loc = document.getElementById('locationname')
-const temperature = document.getElementById('temp')
 const summary = document.querySelector("#summary");
-const icon = document.querySelector("#icon");
-const sunriset = document.querySelector("#sunriseDOM");
-const sunset = document.querySelector("#sunsetDOM");
+const icons = document.querySelector("#w-icon");
+const humidity = document.querySelector("#humidity-c");
+const wind = document.querySelector("#windDOM");
+const uv = document.querySelector("#uvDOM");
+const fahar = document.querySelector('#Fahar')
+const temperature = document.getElementById('temp')
 
 
-function onGeolocateSuccess(coordinates) {
+async function onGeolocateSuccess(coordinates) {
     
   let lon = coordinates.coords.longitude;
   let lat = coordinates.coords.latitude;
@@ -16,9 +18,21 @@ function onGeolocateSuccess(coordinates) {
   
   const base = await fetch(`https://api.weatherapi.com/v1/current.json?key=393bd818b1e747a590171134211009&q=${lat},${lon}`);
 
-  // const obj = await base.json()
+  const obj = await base.json()
   
-  // console.log(obj);
+  console.log(obj);
+
+  temperature.innerText = `${obj.current.temp_c} °C`;
+  loc.innerText = `${obj.location.name}`;
+  // icons.innerText = `${obj.current.condition.text};
+  humidity.textContent = `${obj.current.humidity} %`;
+  wind.textContent = `${obj.current.wind_kph} KM`;
+  uv.textContent = `${obj.current.uv} UV`;
+
+  fahar.addEventListener('click', function(){
+    temperaturef.innerHTML = `${obj.current.temp_f} °F`;
+  } ) 
+
 }
 
 function onGeolocateError(error) {
@@ -33,8 +47,9 @@ function onGeolocateError(error) {
   }
 }
 
-window.addEventListener('click', function() {
+window.addEventListener('load', function() {
     navigator.geolocation.getCurrentPosition(onGeolocateSuccess, onGeolocateError);
 });
 
 
+  
