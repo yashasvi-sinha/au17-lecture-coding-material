@@ -22,27 +22,23 @@
                             <div class="card-header py-2">
                                 <h1> Weather App </h1>
                             </div>
-                            <div class="card-body">
+                            <div class="card-body ">
                                 <div class="row">
                                     <div class="col-6 border-end my-5 left-temp">
-                                        <i class="bi bi-brightness-high"></i>
-                                        <!-- <i class="bi bi-cloud-drizzle"></i>
-                                        <i class="bi bi-cloud"></i>
-                                        <i class="bi bi-cloud-lightning-rain"></i>
-                                        <i class="bi bi-cloud-sun"></i>
-                                        <i class="bi bi-cloud-haze"></i> -->
-                                        <span class="card-title ps-4"> 30.1 C</span>
+                                        <i id="icon" class="bi bi-brightness-high"></i>
+
+                                        <span class="card-title ps-4" id="temp"> 30.1 C</span>
                                         <br>
                                         <a href="#" class="btn btn-primary">Faharenheit</a>
                                     </div>
                                     <div class="col-6 my-5 right-text">
                                         <div class="row">
-                                            <div class="col-4">
+                                            <div class="col-4" id="sunriseDOM">
                                                 <i class="bi bi-sunrise"></i>
                                                 <h3>6:3</h3>
                                             </div>
                                             <div class="col-4">
-                                                <i class="bi bi-sunset"></i>
+                                                <i class="bi bi-sunset" id="sunsetDOM"></i>
                                                 <h3>18:34</h3>
                                             </div>
                                             <div class="col-4">
@@ -54,9 +50,8 @@
                                 </div>
                             </div>
                             <div class="card-footer">
-                                <h2>Sunny</h2>
+                                <h2 id="summary">Sunny</h2>
                                 <h2 id="locationname">New Delhi</h2>
-                                <a href="#" id="geo-btn" class="btn btn-primary">Get Your Location</a>
                             </div>
                         </div>
                     </div>
@@ -66,7 +61,6 @@
     </section>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
-
     <script src="Js/app.js"></script>
 </body>
 

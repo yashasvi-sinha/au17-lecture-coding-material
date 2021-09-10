@@ -1,12 +1,24 @@
 
-const geolocateBtn = document.getElementById('geo-btn');
-const geolocationname = document.getElementById('locationname')
+
+const loc = document.getElementById('locationname')
+const temperature = document.getElementById('temp')
+const summary = document.querySelector("#summary");
+const icon = document.querySelector("#icon");
+const sunriset = document.querySelector("#sunriseDOM");
+const sunset = document.querySelector("#sunsetDOM");
+
 
 function onGeolocateSuccess(coordinates) {
     
-    let getloction = 'Latitude is ' + coordinates.coords.latitude + ',' + ' Longitude is ' + coordinates.coords.longitude
-    geolocationname.innerHTML = getloction;
+  let lon = coordinates.coords.longitude;
+  let lat = coordinates.coords.latitude;
+  console.log(lon,lat);
   
+  const base = await fetch(`https://api.weatherapi.com/v1/current.json?key=393bd818b1e747a590171134211009&q=${lat},${lon}`);
+
+  // const obj = await base.json()
+  
+  // console.log(obj);
 }
 
 function onGeolocateError(error) {
@@ -21,7 +33,7 @@ function onGeolocateError(error) {
   }
 }
 
-geolocateBtn.addEventListener('click', function() {
+window.addEventListener('click', function() {
     navigator.geolocation.getCurrentPosition(onGeolocateSuccess, onGeolocateError);
 });
 
