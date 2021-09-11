@@ -9,6 +9,10 @@ const uv = document.querySelector("#uvDOM");
 const fahar = document.querySelector('#Fahar')
 const temperature = document.getElementById('temp')
 
+const windkpm = document.querySelector("#windkpmDOM");
+const cloud = document.querySelector('#cloudDOM')
+const winddegree = document.getElementById('winddegreeDOM')
+
 
 async function onGeolocateSuccess(coordinates) {
     
@@ -25,9 +29,13 @@ async function onGeolocateSuccess(coordinates) {
   temperature.innerText = `${obj.current.temp_c} °C`;
   loc.innerText = `${obj.location.name}`;
   humidity.textContent = `${obj.current.humidity} %`;
-  wind.textContent = `${obj.current.wind_kph} Km`;
+  wind.textContent = `${obj.current.wind_kph} Kph`;
   uv.textContent = `${obj.current.uv} UV`;
-  // icons.innerText = `${obj.current.cdn.weatherapi.com/weather/64x64/night/389.png};
+  windkpmDOM.innerText = `${obj.current.wind_mph} Mph`;
+  cloud.innerText = `${obj.current.cloud} %`;
+  winddegree.innerText = `${obj.current.wind_degree} %`;
+
+  // icons.innerText = `${obj.current[0].icon};
 }
 
 function onGeolocateError(error) {
