@@ -1,0 +1,1 @@
+Please create your own folder inside `short-covid` and work accordingly
