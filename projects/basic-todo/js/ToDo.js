@@ -1,7 +1,17 @@
+const TODO_ITEM_KEY = "todoItems"
+
 class TodoList {
 
     constructor(){
-        this.todoItems = []
+        const oldTodoItems = JSON.parse(localStorage.getItem(TODO_ITEM_KEY))
+    
+        if (!oldTodoItems) {
+            this.todoItems = []
+            return;    
+        }
+
+        this.todoItems = oldTodoItems 
+
     }
 
 
@@ -12,6 +22,12 @@ class TodoList {
 
     addTask(taskObj){
         this.todoItems.push(taskObj)
+
+        const todoItemsAsString = JSON.stringify(this.todoItems)
+        
+        localStorage.setItem(TODO_ITEM_KEY, todoItemsAsString)
+
+        // console.log(sessionStorage.getItem("todoItems"))
     }
 
 
@@ -30,18 +46,19 @@ class TodoList {
     }
 }
 
-// let TodoList = 123;
-
 export default TodoList
 
-export const name = "yash"
-
-function sayHello() {
-    console.log('Hello')
 
 
-}
+// let TodoList = 123;
+// export const name = "yash"
 
-let age = 123, gen = "Male"
+// function sayHello() {
+//     console.log('Hello')
 
-export {age, gen, sayHello}
+
+// }
+
+// let age = 123, gen = "Male"
+
+// export {age, gen, sayHello}

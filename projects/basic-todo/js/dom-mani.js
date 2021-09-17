@@ -1,4 +1,4 @@
-import TodoList, {sayHello as modSayHello} from './ToDo.js'
+import TodoList from './ToDo.js'
 
 function sayHello(params) {
     console.log("MY HELLOWWWWWWW!!")
@@ -12,7 +12,8 @@ const formElem = document.getElementById('taskForm')
 
 
 // creating an instance of ToDoList
-const myTodoListObj = new TodoList()
+window.myTodoListObj = new TodoList()
+updateListInUI()
 
 function removeLiFromUI(e){
     const elementIndex = e.target.attributes.ind
@@ -104,6 +105,6 @@ deleteButton.addEventListener('click', () => {
 
 
 
-sayHello()
+// sayHello()
 
-modSayHello()
+// modSayHello()
