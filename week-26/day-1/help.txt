@@ -1,0 +1,7 @@
+Agenda:
+
+1. Get form data from client(browser) to Server(into node) //DONE
+2. SignUp for the MongoDB atlas (Cloud Database) //DONE
+3. Connect MongoDB with our Server //DONE
+4. Store data (form data) into the MongoDB Database // DONE
+5. Show data from the MongoDB database in the browser.  //DONE
