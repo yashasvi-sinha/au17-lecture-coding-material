@@ -2,9 +2,11 @@ const express = require('express')
 const { MongoClient } = require('mongodb')
 
 
-const dbURL = `mongodb+srv://survey_app:BHQTXIFFFsWTnhd0@cluster0.xdoik.mongodb.net/survey_database?retryWrites=true&w=majority`
+const dbURL = `mongodb+srv://survey_app:BHQTXIFFFsWTnhd0@cluster0.xdoik.mongodb.net/asdasdasd?retryWrites=true&w=majority`
 
 const client = new MongoClient(dbURL)
+
+
 let db = null
 let collectionRef = null
 

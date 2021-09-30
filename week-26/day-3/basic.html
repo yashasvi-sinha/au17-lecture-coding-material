@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body class="myBody">
+
+  
+    
+    <button id="myButton" class="blue-back">Click Me</button>
+    
+
+    <style>
+        .blue-back{
+            background-color: blue;
+        }
+
+        .font-red{
+            color: red;
+        }
+
+
+    </style>
+
+    <!-- 2. DOM == ( basics ) (getByClassName)(classList) -->
+    <script>
+
+        //created dynamic button here
+        const btn = document.createElement('button')
+
+        //insert text in button
+        btn.innerText = "SOME TEXT"
+
+        const elements = document.getElementsByClassName('myBody')
+
+
+        elements[0].appendChild(btn)
+
+
+
+       const mainBtn = document.getElementById('myButton')
+
+       console.log(mainBtn.classList)
+
+       console.log('ADDING CLASS')
+       mainBtn.classList.add('font-red')
+
+
+    </script>
+
+
+    <form action="/cake" method="POST">
+
+        <input type="text" name="cakeName" placeholder="Your cake name">
+        
+        <input type="submit">
+    </form>
+
+</body>
+</html>

@@ -1,0 +1,11 @@
+1. Server basics and sending html form
+
+3. Lexical Scope (Closure)
+4. Callback 
+5. Destructuring
+6. Loops FOR OF
+
+//MAYBE LATER
+4. Promises (Basics)
+5. Event Propagation/Default
+
