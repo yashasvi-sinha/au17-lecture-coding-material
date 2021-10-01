@@ -1,0 +1,4 @@
+1. Overview of Heroku
+2. Creating an express server
+3. Hosting the server to Heroku
+4. Updating our code and consequently on Heroku
