@@ -1,0 +1,6 @@
+* What is SPA ? --DOne
+* What is React ? -- //Angular MVC, Vue, Svelte, Ruby, ....
+    Why?
+* What is a Component ?
+* Using CRA
+* Writing first component
