@@ -1,0 +1,4 @@
+* Components //DONE
+    - Types of components
+* JSX //JavaScript and HTML
+* Composition
