@@ -1,12 +1,20 @@
 import CardThumbnail from './components/CardThumbnail'
-
-
-// https://i.ytimg.com/vi/N6Bd7wJnorw/hq720.jpg
+import videoData from './video'
 
 function App() {
+
+  console.log(videoData)
+
+  
+  const CardComponents = videoData.map(video => {
+    return <CardThumbnail videoInfo={video}/>
+  })
+
+  console.log(CardComponents)
+  
   return (
     <main className="container pt-5">
-      <CardThumbnail />
+       {CardComponents}
     </main>
   );
 }

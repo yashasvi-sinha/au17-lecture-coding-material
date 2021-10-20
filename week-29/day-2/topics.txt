@@ -1,4 +1,4 @@
-* Components //DONE
-    - Types of components
-* JSX //JavaScript and HTML
-* Composition
+- Props
+- States
+- Updating state/Props
+- Lifting states up

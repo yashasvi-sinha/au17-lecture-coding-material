@@ -2,16 +2,17 @@
 import ThumbnailInfo from "./ThumbnailInfo"
 
 //functional component
-function CardThumbnail() {
+function CardThumbnail(props) {
+    console.log(props)
 
-
+    
+    
     //must return some html
     return (
         <div  className="card w-50 shadow-lg" >
-            <img src="https://i.ytimg.com/vi/N6Bd7wJnorw/hq720.jpg" className="card-img-top " />
+            <img src={props.videoInfo.imageUrl} className="card-img-top " />
             <div className="card-body bg-dark text-light">
-                <ThumbnailInfo />
-                
+                <ThumbnailInfo  videoMetadata={props.videoInfo}/>        
             </div>
         </div>
     )
