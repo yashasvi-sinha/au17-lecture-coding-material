@@ -1,0 +1,4 @@
+- Props //DONE
+- States //DONE
+- Updating state //DONE  /Props 
+- Lifting states up
