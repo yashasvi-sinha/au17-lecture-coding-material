@@ -1,0 +1,3 @@
+- Styling in React //DONE YAY!!!!
+- Event handling in React //DONE
+- Conditional Rendering
