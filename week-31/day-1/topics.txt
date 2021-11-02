@@ -1,0 +1,4 @@
+- What is redux
+- Why redux
+- Understanding the Redux pattern
+- Code example using Redux
