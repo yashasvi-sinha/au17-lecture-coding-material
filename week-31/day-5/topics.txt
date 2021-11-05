@@ -1,0 +1,5 @@
+- Action Creator // Done
+- Principles of Redux ///DONE
+- Basic Middleware //DONE
+- Redux Thunk
+- API Calls using Redux Thunk
