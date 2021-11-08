@@ -1,0 +1,12 @@
+- Action Creator // Done
+- Principles of Redux ///DONE
+- Basic Middleware //DONE
+
+- Connect Redux Dev Tools //Done
+
+- API Calls without Redux Thunk
+- Redux Thunk
+- API Calls using Redux Thunk
+
+
+- User Login/auth with Redux
