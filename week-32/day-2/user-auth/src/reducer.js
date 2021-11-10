@@ -1,16 +1,17 @@
-import { USER_LOGIN } from "./actions"
+import { GET_ALL_RESTAURANT, USER_LOGIN, USER_LOGOUT } from "./actions"
 
 const initialState = {
     user: {
-        isLoggedIn: false,
-        token: null
-    }
+        isLoggedIn: Boolean(localStorage.getItem('userLoggedIn')) || false,
+        token: localStorage.getItem('userToken') || null
+    },
+    restaurant: []
 }
 
 export const rootReducer = (state = initialState, action) => {
 
 
-    if (action.type === USER_LOGIN) {
+    if (action.type === USER_LOGIN || action.type === USER_LOGOUT) {
         
         return {
             ...state,
@@ -21,6 +22,25 @@ export const rootReducer = (state = initialState, action) => {
         }
     }
 
+    // if (action.type === USER_LOGOUT) {
+        
+    //     return {
+    //         ...state,
+    //         user: {
+    //             isLoggedIn: action.payload.isLoggedIn,
+    //             token: action.payload.token
+    //         }
+    //     }
+    // }
+
+
+    if (action.type === GET_ALL_RESTAURANT) {
+        
+        return {
+            ...state,
+            restaurant: action.payload
+        }
+    }
 
     return state
 }

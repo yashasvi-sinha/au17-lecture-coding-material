@@ -1,17 +1,21 @@
 import { useState } from "react"
 import { userLogin } from "../actions"
 import { useDispatch, useSelector } from 'react-redux'
+import { Navigate } from 'react-router-dom'
 
 function Login() {
 
     const userStore = useSelector(state => state.user)
+    const dispatch = useDispatch()
+    
     console.log(`🚀 ~ Login ~ userStore`, userStore)
-
     const [email, setEmail] = useState("")
     const [password, setPassword] = useState("")
 
-    const dispatch = useDispatch()
-
+    if (userStore.isLoggedIn === true) {
+        return <Navigate to="/restaurants"/>
+    }
+    
     const handleLoginClick = () => {
         dispatch(userLogin(email, password))
     }
