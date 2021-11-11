@@ -1,1 +1,5 @@
-- User Login/auth with Redux
+- Validations for forms
+- Add feature to add Restaurant to Zomato Lite
+
+--
+Delete and Edit if Possible

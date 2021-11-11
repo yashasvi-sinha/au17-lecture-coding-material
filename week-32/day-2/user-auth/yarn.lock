@@ -1232,6 +1232,11 @@
   "resolved" "https://registry.npmjs.org/@hapi/hoek/-/hoek-8.5.1.tgz"
   "version" "8.5.1"
 
+"@hapi/hoek@^9.0.0":
+  "integrity" "sha512-gfta+H8aziZsm8pZa0vj04KO6biEiisppNgA1kbJvFrrWu9Vm7eaUEy76DIxsuTaWvti5fkJVhllWc6ZTE+Mdw=="
+  "resolved" "https://registry.npmjs.org/@hapi/hoek/-/hoek-9.2.1.tgz"
+  "version" "9.2.1"
+
 "@hapi/joi@^15.1.0":
   "integrity" "sha512-entf8ZMOK8sc+8YfeOlM8pCfg3b5+WZIKBfUaaJT8UsjAAPjartzxIYm3TIbjvA4u+u++KbcXD38k682nVHDAQ=="
   "resolved" "https://registry.npmjs.org/@hapi/joi/-/joi-15.1.1.tgz"
@@ -1241,6 +1246,13 @@
     "@hapi/bourne" "1.x.x"
     "@hapi/hoek" "8.x.x"
     "@hapi/topo" "3.x.x"
+
+"@hapi/topo@^5.0.0":
+  "integrity" "sha512-foQZKJig7Ob0BMAYBfcJk8d77QtOe7Wo4ox7ff1lQYoNNAb6jwcY1ncdoy2e9wQZzvNy7ODZCYJkK8kzmcAnAg=="
+  "resolved" "https://registry.npmjs.org/@hapi/topo/-/topo-5.1.0.tgz"
+  "version" "5.1.0"
+  dependencies:
+    "@hapi/hoek" "^9.0.0"
 
 "@hapi/topo@3.x.x":
   "integrity" "sha512-tAag0jEcjwH+P2quUfipd7liWCNX2F8NvYjQp2wtInsZxnMlypdw0FtAOLxtvvkO+GSRRbmNi8m/5y42PQJYCQ=="
@@ -1515,6 +1527,23 @@
     "@types/estree" "0.0.39"
     "estree-walker" "^1.0.1"
     "picomatch" "^2.2.2"
+
+"@sideway/address@^4.1.0":
+  "integrity" "sha512-idTz8ibqWFrPU8kMirL0CoPH/A29XOzzAzpyN3zQ4kAWnzmNfFmRaoMNN6VI8ske5M73HZyhIaW4OuSFIdM4oA=="
+  "resolved" "https://registry.npmjs.org/@sideway/address/-/address-4.1.2.tgz"
+  "version" "4.1.2"
+  dependencies:
+    "@hapi/hoek" "^9.0.0"
+
+"@sideway/formula@^3.0.0":
+  "integrity" "sha512-vHe7wZ4NOXVfkoRb8T5otiENVlT7a3IAiw7H5M2+GO+9CDgcVUUsX1zalAztCmwyOr2RUTGJdgB+ZvSVqmdHmg=="
+  "resolved" "https://registry.npmjs.org/@sideway/formula/-/formula-3.0.0.tgz"
+  "version" "3.0.0"
+
+"@sideway/pinpoint@^2.0.0":
+  "integrity" "sha512-RNiOoTPkptFtSVzQevY/yWtZwf/RxyVnPy/OcA9HBM3MlGDnBEYL5B41H0MTn0Uec8Hi+2qUtTfG2WWZBmMejQ=="
+  "resolved" "https://registry.npmjs.org/@sideway/pinpoint/-/pinpoint-2.0.0.tgz"
+  "version" "2.0.0"
 
 "@sinonjs/commons@^1.7.0":
   "integrity" "sha512-sruwd86RJHdsVf/AtBoijDmUqJp3B6hF/DGC23C+JaegnDHaZyewCjoVGTdg3J0uz3Zs7NnIT05OBOmML72lQw=="
@@ -6855,6 +6884,17 @@
     "@jest/core" "^26.6.0"
     "import-local" "^3.0.2"
     "jest-cli" "^26.6.0"
+
+"joi@^17.4.2":
+  "integrity" "sha512-Lm56PP+n0+Z2A2rfRvsfWVDXGEWjXxatPopkQ8qQ5mxCEhwHG+Ettgg5o98FFaxilOxozoa14cFhrE/hOzh/Nw=="
+  "resolved" "https://registry.npmjs.org/joi/-/joi-17.4.2.tgz"
+  "version" "17.4.2"
+  dependencies:
+    "@hapi/hoek" "^9.0.0"
+    "@hapi/topo" "^5.0.0"
+    "@sideway/address" "^4.1.0"
+    "@sideway/formula" "^3.0.0"
+    "@sideway/pinpoint" "^2.0.0"
 
 "js-tokens@^3.0.0 || ^4.0.0", "js-tokens@^4.0.0":
   "integrity" "sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ=="
