@@ -33,7 +33,7 @@ function Restaurant() {
             <ul>
                 {allRestaurants.map(rest => <li key={rest._id}>{rest.name}</li>)}
             </ul>
-            <Link to="/about" >Go To About</Link>
+            <Link to="/restaurants/add" >Add Restaurant</Link>
         </div>
     )
 }

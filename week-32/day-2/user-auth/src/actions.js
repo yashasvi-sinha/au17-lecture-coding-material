@@ -2,6 +2,7 @@ import axios from "axios"
 export const USER_LOGIN = "USER_LOGIN"
 export const USER_LOGOUT = "USER_LOGOUT"
 export const GET_ALL_RESTAURANT = "GET_ALL_RESTAURANT"
+export const ADD_RESTAURANT = "ADD_RESTAURANT"
 
 export const userLogin = (userEmail, userPassword) => {
     
@@ -32,6 +33,22 @@ export const userLogin = (userEmail, userPassword) => {
 }
 
 
+export const userLogout = () => {
+
+    localStorage.removeItem('userToken')
+    localStorage.removeItem('userLoggedIn')
+
+    return {
+        type: USER_LOGOUT,
+        payload: {
+            token: null,
+            isLoggedIn: false
+        }
+    }
+
+}
+
+
 export const getRestaurant = () => {
     
     return async (dispatch, getState) => {
@@ -58,18 +75,29 @@ export const getRestaurant = () => {
     }
 }
 
+export const addRestaurant = (restaurantData) => {
 
-export const userLogout = () => {
+    return async (dis, getState) => {
 
-    localStorage.removeItem('userToken')
-    localStorage.removeItem('userLoggedIn')
+        const reduxState = getState()
+        console.log(`🚀 ~ return ~ state`, reduxState)
 
-    return {
-        type: USER_LOGOUT,
-        payload: {
-            token: null,
-            isLoggedIn: false
+        const config = {
+            headers: {
+                token: reduxState.user.token,
+                "content-type": "multipart/form-data"
+            }
         }
-    }
 
+        const response = await axios.post('/api/restaurants', restaurantData, config)
+        console.log(`🚀 ~ addRestaurant ~ response.data`, response.data)
+
+        
+
+        dis({
+            type: ADD_RESTAURANT,
+            payload: response.data
+        })
+        
+    }
 }
