@@ -1,0 +1,3 @@
+* Reconciliation //Done
+* Kep prop //Done
+* useEffect better understanding
