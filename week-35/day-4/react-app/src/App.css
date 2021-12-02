@@ -1,0 +1,21 @@
+.App {
+  text-align: center;
+  background-color: teal;
+  padding: 20px;
+}
+
+.logo-small {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+
+.childA {
+  background-color: tomato;
+  padding: 20px;
+}
+
+.childB{
+  background-color: yellowgreen;
+  padding: 20px;
+}
