@@ -19,3 +19,7 @@
   background-color: yellowgreen;
   padding: 20px;
 }
+
+td{
+  border: 2px solid salmon;
+}
