@@ -1,0 +1,6 @@
+This is a sample text containing some lines of text
+This is the second line of the file
+Maybe adding a 3rd line won't hurt
+I don't know what this guy is talking about	This is a new Text
+
+This is a new Text
