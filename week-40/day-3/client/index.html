@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Web Sockets</h1>
+
+    <input type="text" id="userInput" placeholder="Type something">
+
+    <script>
+        inputTag = document.getElementById('userInput')
+
+        const wsConnection = new WebSocket('ws://localhost:5001')
+
+        wsConnection.addEventListener('open', () => {
+            console.log('Connection to the web socket server established')
+        })
+
+        wsConnection.addEventListener('message', (msg) => {
+            console.log('Received from server: ', msg.data)
+        })
+
+
+        inputTag.addEventListener('keyup', (e) => {
+            // console.log(e.target.value)
+            const inputText = e.target.value
+            wsConnection.send(inputText)
+        })  
+
+
+
+        document.addEventListener('mousemove', (e)=> {
+            console.log("Mouse Moved")
+            console.log(`🚀 ~ document.addEventListener ~ e`, e)
+
+            wsConnection.send(JSON.stringify({ currentX: e.x, currentY: e.y }))
+        })
+
+        // setTimeout(() => {
+        //     console.log('Closing Connection')
+        //     wsConnection.close()
+
+        // }, 10000)
+
+    </script>
+</body>
+</html>
