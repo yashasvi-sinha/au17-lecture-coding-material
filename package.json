@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "@types/jest": "^27.4.0",
     "axios": "^0.24.0"
   }
 }
