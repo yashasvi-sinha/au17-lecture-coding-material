@@ -1,0 +1,126 @@
+Day 1 - Resume Building & How to drive job search
+Day 2 - Etiquettes of interview
+Day 3 - Approaching a problem in a technical interview
+Day 4 - HR interview Tips
+Day 5 - How to attain success & Freelancing opportunities
+
+
+Day 2
+
+
+1 == Basic Intro, Background info(Academics/)
+2 === Past Exp/Project
+3 === Expectations/
+
+
+=== Introductory Call setup
+
+1. Use desktop/laptop
+
+2. Familiarizing with the platform
+
+3. Turn Video On  
+
+    4. Background and lighting
+
+    5. Dress Up
+
+6. Be On Time (Ideally early)
+
+7. Research about company/Job Role
+
+8. Mode of communication
+    -- Watch movies
+    -- Book 
+
+9. Elimination of distractions
+
+
+
+Interview != interrogation
+interview ==== conversation
+
+Finally, remember its and interview and not an interrogation. Get in the mood to talk and have conversations.
+
+
+
+
+
+
+Day-3 Approaching a problem in a technical interview
+
+Things we need to do before writing code
+----------------------
+
+1. Understand and Analyze the problem
+
+    - Rephrase the problems in your own words to understand better
+    - Few questions that can be asked to improve the understanding
+        - If someone asks me to explain this problem, would I be able to???
+        - What and how are the inputs/outputs?
+        - Can we separate the problem
+        - Do I have enough info to solve the question?? 
+
+
+
+2. Go thorough the sample data and examples thoroughly
+
+    431, 123, 4312   ||  [ 431, "123 ]
+
+    `
+    Hello               
+    234 World
+    End
+    `
+
+    `
+    Hello 234
+    World End
+    `
+
+    - Crucial for understanding the inputs/output format
+
+    - Constraints
+       0 < n <=1000
+
+    200, 550
+
+    Few pointers for help
+        - Consider your own sample inputs/outputs (Edge cases)
+        - Consider taking maybe bigger/complex inputs and work out towards the solution
+    
+
+
+3. Break the problem into chunks of problems (optional)
+
+    1. func === the range of numbers
+    2. func  
+
+
+    - Instead of focusing on the larger part of the problem, divide the problem
+    - Solve those independent problems (functions)
+    - Ideally, use classes/objects, for management type of questions
+
+
+
+4. Write pseudo code
+
+    - This defines the approach of the solution (gives the idea to the interviewer)
+    - Added benefit == Guide you/gives hint to the solution
+    - Get the idea of the structure/flow of the code
+
+SPEAK WHAT YOU THINK WHILE IN A TECHNICAL INTERVIEW
+
+
+5. Start coding
+
+
+6. Optimization/Refactor
+
+    if the time permits,
+        Remove repetitions if any
+        More readable
+        Find efficient algo
+
+
+
